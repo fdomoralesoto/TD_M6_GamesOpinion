@@ -1,0 +1,63 @@
+body {
+    background-image: url("/src/assets/background-games.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.logotipo {
+    min-width: 110px;
+    max-width: 110px;
+}
+.header-estilo {
+    background-color: #ffffff;
+    border-bottom: 3px solid #e0313c;
+}
+.custom-nav-item {
+    display: flex;
+    justify-content: flex-end;
+}
+.link-color {
+    color: #201e1e;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.link-color:hover {
+    color: #5b5b5b;
+}
+button.navbar-toggler.link-color {
+    background: #909090 !important;
+}
+img.imagen-juegos {
+    max-height: 150px;
+    min-height: 150px;
+}
+.titulo-inicio {
+    margin: 15px 0px 15px 0px;
+}
+.pequeno {
+    font-size: 12px;
+}
+.mediano {
+    font-size: 16px;
+}
+.row.contendor-opiniones {
+    background: #f8f8f8;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.botones-edicion {
+    display: flex;
+    gap: 10px; 
+}
+.icono-corazon {
+    color: red;
+    margin-left: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.icono-corazon:hover {
+    color: rgb(228, 157, 157);
+}
